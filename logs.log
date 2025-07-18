@@ -1,0 +1,861 @@
+2025-07-17 16:10:00,673:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-17 16:10:04,697:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 16:10:04,698:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 16:10:04,698:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 16:10:04,699:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 16:10:40,752:INFO:Initializing load_model()
+2025-07-17 16:10:40,752:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 16:10:40,814:INFO:Initializing predict_model()
+2025-07-17 16:10:40,814:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADA9BD9D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD08FCFE0>)
+2025-07-17 16:10:40,814:INFO:Checking exceptions
+2025-07-17 16:10:40,814:INFO:Preloading libraries
+2025-07-17 16:10:40,815:INFO:Set up data.
+2025-07-17 16:10:40,816:INFO:Set up index.
+2025-07-17 16:11:38,387:INFO:Initializing load_model()
+2025-07-17 16:11:38,387:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 16:11:38,396:INFO:Initializing predict_model()
+2025-07-17 16:11:38,396:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013AD28B0E50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD6AD260>)
+2025-07-17 16:11:38,396:INFO:Checking exceptions
+2025-07-17 16:11:38,396:INFO:Preloading libraries
+2025-07-17 16:11:38,396:INFO:Set up data.
+2025-07-17 16:11:38,398:INFO:Set up index.
+2025-07-17 17:04:14,847:INFO:Initializing load_model()
+2025-07-17 17:04:14,847:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 17:04:14,866:INFO:Initializing predict_model()
+2025-07-17 17:04:14,866:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD78BDD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD792FC0>)
+2025-07-17 17:04:14,866:INFO:Checking exceptions
+2025-07-17 17:04:14,866:INFO:Preloading libraries
+2025-07-17 17:04:14,866:INFO:Set up data.
+2025-07-17 17:04:14,867:INFO:Set up index.
+2025-07-17 17:25:42,476:INFO:Initializing load_model()
+2025-07-17 17:25:42,476:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:25:42,488:INFO:Initializing predict_model()
+2025-07-17 17:25:42,488:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD693D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1E160>)
+2025-07-17 17:25:42,489:INFO:Checking exceptions
+2025-07-17 17:25:42,489:INFO:Preloading libraries
+2025-07-17 17:25:42,490:INFO:Set up data.
+2025-07-17 17:25:42,492:INFO:Set up index.
+2025-07-17 17:26:03,842:INFO:Initializing load_model()
+2025-07-17 17:26:03,842:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:26:03,852:INFO:Initializing predict_model()
+2025-07-17 17:26:03,852:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD6C08D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD9CF9C0>)
+2025-07-17 17:26:03,852:INFO:Checking exceptions
+2025-07-17 17:26:03,852:INFO:Preloading libraries
+2025-07-17 17:26:03,853:INFO:Set up data.
+2025-07-17 17:26:03,854:INFO:Set up index.
+2025-07-17 17:26:16,094:INFO:Initializing load_model()
+2025-07-17 17:26:16,094:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:26:16,106:INFO:Initializing predict_model()
+2025-07-17 17:26:16,106:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013AD2849510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1D940>)
+2025-07-17 17:26:16,106:INFO:Checking exceptions
+2025-07-17 17:26:16,107:INFO:Preloading libraries
+2025-07-17 17:26:16,107:INFO:Set up data.
+2025-07-17 17:26:16,108:INFO:Set up index.
+2025-07-17 17:35:32,022:INFO:Initializing load_model()
+2025-07-17 17:35:32,022:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:35:32,034:INFO:Initializing predict_model()
+2025-07-17 17:35:32,034:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADDA19910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD2828C20>)
+2025-07-17 17:35:32,035:INFO:Checking exceptions
+2025-07-17 17:35:32,035:INFO:Preloading libraries
+2025-07-17 17:35:32,035:INFO:Set up data.
+2025-07-17 17:35:32,037:INFO:Set up index.
+2025-07-17 17:35:37,579:INFO:Initializing load_model()
+2025-07-17 17:35:37,579:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:35:37,588:INFO:Initializing predict_model()
+2025-07-17 17:35:37,588:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD733C90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD4098A0>)
+2025-07-17 17:35:37,588:INFO:Checking exceptions
+2025-07-17 17:35:37,589:INFO:Preloading libraries
+2025-07-17 17:35:37,589:INFO:Set up data.
+2025-07-17 17:35:37,590:INFO:Set up index.
+2025-07-17 17:35:40,799:INFO:Initializing load_model()
+2025-07-17 17:35:40,800:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:35:40,807:INFO:Initializing predict_model()
+2025-07-17 17:35:40,807:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013AD282FA50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD47F7E0>)
+2025-07-17 17:35:40,807:INFO:Checking exceptions
+2025-07-17 17:35:40,807:INFO:Preloading libraries
+2025-07-17 17:35:40,807:INFO:Set up data.
+2025-07-17 17:35:40,808:INFO:Set up index.
+2025-07-17 17:35:44,879:INFO:Initializing load_model()
+2025-07-17 17:35:44,879:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:35:44,888:INFO:Initializing predict_model()
+2025-07-17 17:35:44,888:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD5C6590>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD282A660>)
+2025-07-17 17:35:44,889:INFO:Checking exceptions
+2025-07-17 17:35:44,889:INFO:Preloading libraries
+2025-07-17 17:35:44,889:INFO:Set up data.
+2025-07-17 17:35:44,890:INFO:Set up index.
+2025-07-17 17:35:49,691:INFO:Initializing load_model()
+2025-07-17 17:35:49,691:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:35:49,703:INFO:Initializing predict_model()
+2025-07-17 17:35:49,703:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD692FD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD282A980>)
+2025-07-17 17:35:49,704:INFO:Checking exceptions
+2025-07-17 17:35:49,704:INFO:Preloading libraries
+2025-07-17 17:35:49,704:INFO:Set up data.
+2025-07-17 17:35:49,705:INFO:Set up index.
+2025-07-17 17:43:41,846:INFO:Initializing load_model()
+2025-07-17 17:43:41,846:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 17:43:41,859:INFO:Initializing predict_model()
+2025-07-17 17:43:41,860:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD6BF510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1CE00>)
+2025-07-17 17:43:41,860:INFO:Checking exceptions
+2025-07-17 17:43:41,860:INFO:Preloading libraries
+2025-07-17 17:43:41,860:INFO:Set up data.
+2025-07-17 17:43:41,861:INFO:Set up index.
+2025-07-17 17:43:47,858:INFO:Initializing load_model()
+2025-07-17 17:43:47,859:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 17:43:47,868:INFO:Initializing predict_model()
+2025-07-17 17:43:47,869:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD508550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD2828E00>)
+2025-07-17 17:43:47,869:INFO:Checking exceptions
+2025-07-17 17:43:47,869:INFO:Preloading libraries
+2025-07-17 17:43:47,869:INFO:Set up data.
+2025-07-17 17:43:47,870:INFO:Set up index.
+2025-07-17 17:43:53,392:INFO:Initializing load_model()
+2025-07-17 17:43:53,392:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:43:53,404:INFO:Initializing predict_model()
+2025-07-17 17:43:53,404:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD4F5390>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD96F4C0>)
+2025-07-17 17:43:53,404:INFO:Checking exceptions
+2025-07-17 17:43:53,404:INFO:Preloading libraries
+2025-07-17 17:43:53,404:INFO:Set up data.
+2025-07-17 17:43:53,406:INFO:Set up index.
+2025-07-17 17:43:59,069:INFO:Initializing load_model()
+2025-07-17 17:43:59,070:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:43:59,082:INFO:Initializing predict_model()
+2025-07-17 17:43:59,082:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD4F5190>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD2828E00>)
+2025-07-17 17:43:59,082:INFO:Checking exceptions
+2025-07-17 17:43:59,082:INFO:Preloading libraries
+2025-07-17 17:43:59,082:INFO:Set up data.
+2025-07-17 17:43:59,084:INFO:Set up index.
+2025-07-17 17:44:03,401:INFO:Initializing load_model()
+2025-07-17 17:44:03,402:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:44:03,411:INFO:Initializing predict_model()
+2025-07-17 17:44:03,411:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADDA51BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1EDE0>)
+2025-07-17 17:44:03,411:INFO:Checking exceptions
+2025-07-17 17:44:03,411:INFO:Preloading libraries
+2025-07-17 17:44:03,411:INFO:Set up data.
+2025-07-17 17:44:03,413:INFO:Set up index.
+2025-07-17 17:44:10,885:INFO:Initializing load_model()
+2025-07-17 17:44:10,885:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:44:10,896:INFO:Initializing predict_model()
+2025-07-17 17:44:10,896:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADDA35450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD931F4C0>)
+2025-07-17 17:44:10,896:INFO:Checking exceptions
+2025-07-17 17:44:10,896:INFO:Preloading libraries
+2025-07-17 17:44:10,896:INFO:Set up data.
+2025-07-17 17:44:10,897:INFO:Set up index.
+2025-07-17 17:44:13,350:INFO:Initializing load_model()
+2025-07-17 17:44:13,350:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:44:13,360:INFO:Initializing predict_model()
+2025-07-17 17:44:13,360:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADDA1B590>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD793560>)
+2025-07-17 17:44:13,361:INFO:Checking exceptions
+2025-07-17 17:44:13,361:INFO:Preloading libraries
+2025-07-17 17:44:13,361:INFO:Set up data.
+2025-07-17 17:44:13,362:INFO:Set up index.
+2025-07-17 17:44:15,731:INFO:Initializing load_model()
+2025-07-17 17:44:15,731:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:44:15,741:INFO:Initializing predict_model()
+2025-07-17 17:44:15,741:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD6BBDD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1ECA0>)
+2025-07-17 17:44:15,742:INFO:Checking exceptions
+2025-07-17 17:44:15,742:INFO:Preloading libraries
+2025-07-17 17:44:15,742:INFO:Set up data.
+2025-07-17 17:44:15,744:INFO:Set up index.
+2025-07-17 17:47:21,526:INFO:Initializing load_model()
+2025-07-17 17:47:21,526:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:47:21,538:INFO:Initializing predict_model()
+2025-07-17 17:47:21,538:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD508BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADDA1E660>)
+2025-07-17 17:47:21,538:INFO:Checking exceptions
+2025-07-17 17:47:21,539:INFO:Preloading libraries
+2025-07-17 17:47:21,539:INFO:Set up data.
+2025-07-17 17:47:21,540:INFO:Set up index.
+2025-07-17 17:47:39,275:INFO:Initializing load_model()
+2025-07-17 17:47:39,275:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:47:39,287:INFO:Initializing predict_model()
+2025-07-17 17:47:39,287:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADDA06790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD56B58A0>)
+2025-07-17 17:47:39,287:INFO:Checking exceptions
+2025-07-17 17:47:39,287:INFO:Preloading libraries
+2025-07-17 17:47:39,287:INFO:Set up data.
+2025-07-17 17:47:39,288:INFO:Set up index.
+2025-07-17 17:47:57,491:INFO:Initializing load_model()
+2025-07-17 17:47:57,491:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 17:47:57,502:INFO:Initializing predict_model()
+2025-07-17 17:47:57,502:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013ADD5F8550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013AD931F4C0>)
+2025-07-17 17:47:57,502:INFO:Checking exceptions
+2025-07-17 17:47:57,502:INFO:Preloading libraries
+2025-07-17 17:47:57,502:INFO:Set up data.
+2025-07-17 17:47:57,504:INFO:Set up index.
+2025-07-17 17:48:26,173:INFO:Initializing load_model()
+2025-07-17 17:48:26,173:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 17:48:26,181:INFO:Initializing predict_model()
+2025-07-17 17:48:26,181:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000013AD2848AD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000013ADD792DE0>)
+2025-07-17 17:48:26,181:INFO:Checking exceptions
+2025-07-17 17:48:26,181:INFO:Preloading libraries
+2025-07-17 17:48:26,181:INFO:Set up data.
+2025-07-17 17:48:26,182:INFO:Set up index.
+2025-07-17 18:11:30,461:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-17 18:11:32,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 18:11:32,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 18:11:32,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 18:11:32,962:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-17 18:22:12,091:INFO:Initializing load_model()
+2025-07-17 18:22:12,091:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-17 18:22:12,160:INFO:Initializing predict_model()
+2025-07-17 18:22:12,160:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017628C36310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017628C1A520>)
+2025-07-17 18:22:12,160:INFO:Checking exceptions
+2025-07-17 18:22:12,160:INFO:Preloading libraries
+2025-07-17 18:22:12,161:INFO:Set up data.
+2025-07-17 18:22:12,162:INFO:Set up index.
+2025-07-17 18:29:26,825:INFO:Initializing load_model()
+2025-07-17 18:29:26,825:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:29:26,839:INFO:Initializing predict_model()
+2025-07-17 18:29:26,839:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001762903BD50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000176288A2A20>)
+2025-07-17 18:29:26,839:INFO:Checking exceptions
+2025-07-17 18:29:26,839:INFO:Preloading libraries
+2025-07-17 18:29:26,840:INFO:Set up data.
+2025-07-17 18:29:26,842:INFO:Set up index.
+2025-07-17 18:33:19,281:INFO:Initializing load_model()
+2025-07-17 18:33:19,281:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:33:19,290:INFO:Initializing predict_model()
+2025-07-17 18:33:19,290:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001761D06CAD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000176290E6700>)
+2025-07-17 18:33:19,290:INFO:Checking exceptions
+2025-07-17 18:33:19,290:INFO:Preloading libraries
+2025-07-17 18:33:19,290:INFO:Set up data.
+2025-07-17 18:33:19,291:INFO:Set up index.
+2025-07-17 18:33:54,560:INFO:Initializing load_model()
+2025-07-17 18:33:54,560:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:33:54,569:INFO:Initializing predict_model()
+2025-07-17 18:33:54,569:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017629155F10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001761B8BE160>)
+2025-07-17 18:33:54,570:INFO:Checking exceptions
+2025-07-17 18:33:54,570:INFO:Preloading libraries
+2025-07-17 18:33:54,570:INFO:Set up data.
+2025-07-17 18:33:54,571:INFO:Set up index.
+2025-07-17 18:36:14,943:INFO:Initializing load_model()
+2025-07-17 18:36:14,943:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:36:14,952:INFO:Initializing predict_model()
+2025-07-17 18:36:14,952:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001761D2AB650>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001762A25B1A0>)
+2025-07-17 18:36:14,952:INFO:Checking exceptions
+2025-07-17 18:36:14,952:INFO:Preloading libraries
+2025-07-17 18:36:14,952:INFO:Set up data.
+2025-07-17 18:36:14,953:INFO:Set up index.
+2025-07-17 18:36:53,165:INFO:Initializing load_model()
+2025-07-17 18:36:53,165:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:36:53,173:INFO:Initializing predict_model()
+2025-07-17 18:36:53,173:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001761D265D10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017629019F80>)
+2025-07-17 18:36:53,173:INFO:Checking exceptions
+2025-07-17 18:36:53,173:INFO:Preloading libraries
+2025-07-17 18:36:53,173:INFO:Set up data.
+2025-07-17 18:36:53,174:INFO:Set up index.
+2025-07-17 18:38:15,887:INFO:Initializing load_model()
+2025-07-17 18:38:15,888:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:38:15,896:INFO:Initializing predict_model()
+2025-07-17 18:38:15,896:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001762A2780D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017628C1A200>)
+2025-07-17 18:38:15,896:INFO:Checking exceptions
+2025-07-17 18:38:15,896:INFO:Preloading libraries
+2025-07-17 18:38:15,896:INFO:Set up data.
+2025-07-17 18:38:15,897:INFO:Set up index.
+2025-07-17 18:38:55,628:INFO:Initializing load_model()
+2025-07-17 18:38:55,628:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:38:55,647:INFO:Initializing predict_model()
+2025-07-17 18:38:55,647:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001761E9E1510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001762A25B240>)
+2025-07-17 18:38:55,647:INFO:Checking exceptions
+2025-07-17 18:38:55,647:INFO:Preloading libraries
+2025-07-17 18:38:55,647:INFO:Set up data.
+2025-07-17 18:38:55,650:INFO:Set up index.
+2025-07-17 18:43:32,351:INFO:Initializing load_model()
+2025-07-17 18:43:32,351:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:43:32,361:INFO:Initializing predict_model()
+2025-07-17 18:43:32,361:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001761D24F790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017628FEB600>)
+2025-07-17 18:43:32,361:INFO:Checking exceptions
+2025-07-17 18:43:32,361:INFO:Preloading libraries
+2025-07-17 18:43:32,361:INFO:Set up data.
+2025-07-17 18:43:32,362:INFO:Set up index.
+2025-07-17 18:43:40,250:INFO:Initializing load_model()
+2025-07-17 18:43:40,251:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:43:40,265:INFO:Initializing predict_model()
+2025-07-17 18:43:40,265:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001762A332AD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000017628C1A200>)
+2025-07-17 18:43:40,265:INFO:Checking exceptions
+2025-07-17 18:43:40,265:INFO:Preloading libraries
+2025-07-17 18:43:40,266:INFO:Set up data.
+2025-07-17 18:43:40,266:INFO:Set up index.
+2025-07-17 18:43:58,741:INFO:Initializing load_model()
+2025-07-17 18:43:58,741:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-17 18:43:58,756:INFO:Initializing predict_model()
+2025-07-17 18:43:58,756:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000017628C01F10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001762A313E20>)
+2025-07-17 18:43:58,756:INFO:Checking exceptions
+2025-07-17 18:43:58,756:INFO:Preloading libraries
+2025-07-17 18:43:58,756:INFO:Set up data.
+2025-07-17 18:43:58,757:INFO:Set up index.
+2025-07-18 09:51:05,631:INFO:Initializing load_model()
+2025-07-18 09:51:05,631:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-18 09:51:05,651:INFO:Initializing predict_model()
+2025-07-18 09:51:05,651:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001762912CA50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001761D2ADB20>)
+2025-07-18 09:51:05,651:INFO:Checking exceptions
+2025-07-18 09:51:05,651:INFO:Preloading libraries
+2025-07-18 09:51:05,654:INFO:Set up data.
+2025-07-18 09:51:05,657:INFO:Set up index.
+2025-07-18 09:52:49,969:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 09:52:56,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:52:56,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:52:56,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:52:56,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:53:33,466:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 09:53:35,177:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:53:35,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:53:35,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:53:35,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 09:58:52,828:INFO:Initializing load_model()
+2025-07-18 09:58:52,828:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-18 09:58:53,033:INFO:Initializing predict_model()
+2025-07-18 09:58:53,034:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CB5CDDA050>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB4EC78FE0>)
+2025-07-18 09:58:53,034:INFO:Checking exceptions
+2025-07-18 09:58:53,034:INFO:Preloading libraries
+2025-07-18 09:58:53,034:INFO:Set up data.
+2025-07-18 09:58:53,036:INFO:Set up index.
+2025-07-18 10:00:23,391:INFO:Initializing load_model()
+2025-07-18 10:00:23,392:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-18 10:00:23,407:INFO:Initializing predict_model()
+2025-07-18 10:00:23,408:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CB5E50FB10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CB5E543060>)
+2025-07-18 10:00:23,408:INFO:Checking exceptions
+2025-07-18 10:00:23,408:INFO:Preloading libraries
+2025-07-18 10:00:23,408:INFO:Set up data.
+2025-07-18 10:00:23,410:INFO:Set up index.
+2025-07-18 10:02:03,334:WARNING:c:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 10:02:04,941:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:02:04,942:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:02:04,942:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:02:04,942:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:07:28,549:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 10:07:30,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:07:30,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:07:30,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:07:30,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:12:03,818:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 10:12:05,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:12:05,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:12:05,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:12:05,471:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:12:24,351:INFO:Initializing load_model()
+2025-07-18 10:12:24,351:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:12:24,424:INFO:Initializing predict_model()
+2025-07-18 10:12:24,424:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000232A5FA1290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000232987AE160>)
+2025-07-18 10:12:24,424:INFO:Checking exceptions
+2025-07-18 10:12:24,424:INFO:Preloading libraries
+2025-07-18 10:12:24,427:INFO:Set up data.
+2025-07-18 10:12:24,431:INFO:Set up index.
+2025-07-18 10:13:48,068:WARNING:C:\Conda\envs\od_zera_do_ai\Lib\site-packages\mlflow\protos\service_pb2.py:11: UserWarning: google.protobuf.service module is deprecated. RPC implementations should provide code generator plugins which generate code specific to the RPC implementation. service.py will be removed in Jan 2025
+  from google.protobuf import service as _service
+
+2025-07-18 10:13:49,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:13:49,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:13:49,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:13:49,770:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-18 10:14:06,124:INFO:Initializing load_model()
+2025-07-18 10:14:06,124:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:14:06,182:INFO:Initializing predict_model()
+2025-07-18 10:14:06,182:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000216106D3A90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021611BA7380>)
+2025-07-18 10:14:06,182:INFO:Checking exceptions
+2025-07-18 10:14:06,182:INFO:Preloading libraries
+2025-07-18 10:14:06,182:INFO:Set up data.
+2025-07-18 10:14:06,184:INFO:Set up index.
+2025-07-18 10:16:05,648:INFO:Initializing load_model()
+2025-07-18 10:16:05,648:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-18 10:16:05,657:INFO:Initializing predict_model()
+2025-07-18 10:16:05,657:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021611BC9C50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000216076518A0>)
+2025-07-18 10:16:05,657:INFO:Checking exceptions
+2025-07-18 10:16:05,657:INFO:Preloading libraries
+2025-07-18 10:16:05,657:INFO:Set up data.
+2025-07-18 10:16:05,658:INFO:Set up index.
+2025-07-18 10:20:00,742:INFO:Initializing load_model()
+2025-07-18 10:20:00,742:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:20:00,752:INFO:Initializing predict_model()
+2025-07-18 10:20:00,753:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021610320250>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002160482ECA0>)
+2025-07-18 10:20:00,753:INFO:Checking exceptions
+2025-07-18 10:20:00,753:INFO:Preloading libraries
+2025-07-18 10:20:00,753:INFO:Set up data.
+2025-07-18 10:20:00,755:INFO:Set up index.
+2025-07-18 10:21:12,702:INFO:Initializing load_model()
+2025-07-18 10:21:12,702:INFO:load_model(model_name=model_profilowy, platform=None, authentication=None, verbose=True)
+2025-07-18 10:21:12,715:INFO:Initializing predict_model()
+2025-07-18 10:21:12,715:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021610702750>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000021611DDFD80>)
+2025-07-18 10:21:12,715:INFO:Checking exceptions
+2025-07-18 10:21:12,715:INFO:Preloading libraries
+2025-07-18 10:21:12,715:INFO:Set up data.
+2025-07-18 10:21:12,716:INFO:Set up index.
+2025-07-18 10:21:16,107:INFO:Initializing load_model()
+2025-07-18 10:21:16,107:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:21:16,115:INFO:Initializing predict_model()
+2025-07-18 10:21:16,116:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021611D1B450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000216106EEC00>)
+2025-07-18 10:21:16,116:INFO:Checking exceptions
+2025-07-18 10:21:16,116:INFO:Preloading libraries
+2025-07-18 10:21:16,116:INFO:Set up data.
+2025-07-18 10:21:16,117:INFO:Set up index.
+2025-07-18 10:33:13,060:INFO:Initializing load_model()
+2025-07-18 10:33:13,060:INFO:load_model(model_name=model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:34:06,628:INFO:Initializing load_model()
+2025-07-18 10:34:06,628:INFO:load_model(model_name=model/model_polmaratonu, platform=None, authentication=None, verbose=True)
+2025-07-18 10:34:06,640:INFO:Initializing predict_model()
+2025-07-18 10:34:06,640:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021611D4D150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Wiek', 'Płeć_bin',
+                                             '5 km Czas (s)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000216045F4E00>)
+2025-07-18 10:34:06,640:INFO:Checking exceptions
+2025-07-18 10:34:06,640:INFO:Preloading libraries
+2025-07-18 10:34:06,641:INFO:Set up data.
+2025-07-18 10:34:06,643:INFO:Set up index.
